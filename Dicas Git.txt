@@ -1,0 +1,29 @@
+git log
+    - git log --decorate
+    - git log --author="Peter"
+    - git log --graph
+
+git shortlog
+    - git shortlog -sn
+
+git show {hash da commit}
+
+git diff
+    - git diff --name-only
+
+git status
+
+git commit am "Mensagem de commit" <- para um arquivo já existente, sem dar add.
+
+git checkout <Nome do arquivo> <- Ignora a última alteração e utiliza a versão anterior
+
+git restore --staged <nome do arquivo> <- retorna ao estado anterior ao "add"
+
+git reset --soft ou --mixed ou --hard + <hash do commit para qual pretende-se voltar>
+    - git reset --soft <- Volta para o estado de "add"
+    - git reset --mixed <- Volta para o estado anterior ao "add"
+    - git reset --hard <- i
+
+
+
+
