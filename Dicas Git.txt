@@ -24,6 +24,6 @@ git reset --soft ou --mixed ou --hard + <hash do commit para qual pretende-se vo
     - git reset --mixed <- Volta para o estado anterior ao "add"
     - git reset --hard <- i
 
-
+git push origin main
 
 
